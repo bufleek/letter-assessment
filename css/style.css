@@ -32,8 +32,9 @@ address {
 .letter{
     max-width: 800px;
     margin: 20px auto;
-    border:1px solid black;
+    box-shadow: 0 20px 50px #8f8e8ee6;
     padding:10px 3px;
+    background:linear-gradient(-45deg, #ec4373e3 5%, #93e8fbe3 50%, #c9ffecdb 50%, #ec4373e3 95%);
 }
 
 .landing{
