@@ -1,0 +1,117 @@
+
+
+
+.sender-column {
+    width:100%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 1.5;
+}
+.letter{
+    max-width: 800px;
+    margin: 20px auto;
+    border:1px solid black;
+    padding:10px 3px;
+}
+
+.landing{
+    height:45vh;
+    min-height:240px;
+    animation: landing 50s infinite;
+    z-index: -1;
+}
+.landing .navigation{
+    height:50px;
+    background: rgba(8, 9, 24, 0.408);
+    width:100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+.landing .navigation a{
+    text-decoration: none;
+    padding:25px 20px;
+    color:#fff;
+    cursor: pointer;
+}
+.landing .navigation a:hover{
+    cursor: pointer;
+    background:rgba(8, 9, 24, 0.625);
+}
+.landing .text{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding-top:65px;
+}
+.landing h2{
+    padding:0 0 10px;
+}
+.landing h3{
+    text-decoration:underline;
+    text-decoration-color: rgba(240, 255, 255, 0.21);
+    font-family: cursive;
+}
+.content{
+    z-index:1;
+    background:rgba(255, 255, 255, 0.897);
+}
+@keyframes landing{
+    0%{
+        background:#3B21C7;
+    }
+    10%{
+        background:linear-gradient(135deg,#3B21C7 20%, #6e21c7 50%, #6e21c7 50%, #3b21c7);
+    }
+    20%{
+        background:linear-gradient(135deg,#3B21C7 20%, #6e21c7 40%, #6e21c7 60%, #3b21c7 80%);
+    }
+    30%{
+        background:linear-gradient(135deg,#3B21C7 20%, #213cc7 50%, #213cc7 50%, #3b21c7 80%);
+    }
+    40%{
+        background:linear-gradient(135deg,#3B21C7 20%, #213cc7 40%, #213cc7 60%, #3b21c7 80%);
+    }
+    50%{
+        background:linear-gradient(135deg,#3B21C7 20%, #213cc7 30%, #213cc7 70%, #3b21c7 80%);
+    }
+    60%{
+        background:linear-gradient(135deg,#3B21C7 20%, #213cc7 25%, #213cc7 75%, #3b21c7 80%);
+    }
+    65%{
+        background:linear-gradient(135deg,#2194C7 20%, #21aac7 25%, #21aac7 75%, #2194C7 80%);
+    }
+    75%{
+        background:linear-gradient(135deg,#2194C7 25%, #21aac7 30%, #21aac7 70%, #2194C7 75%);
+    }
+    85%{
+        background:linear-gradient(135deg,#2194C7 35%, #21aac7 40%, #21aac7 60%, #2194C7 65%);
+    }
+    100%{
+        background:linear-gradient(135deg,#2194C7 45%, #21aac7 50%, #21aac7 50%, #2194C7 55%);
+    }
+    
+}
