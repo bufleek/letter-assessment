@@ -1,4 +1,7 @@
-
+body{
+    background:rgb(86, 33, 199);
+    max-width: 1200px;
+}
 
 
 .sender-column {
@@ -42,6 +45,7 @@ address {
     min-height:240px;
     animation: landing 50s infinite;
     z-index: -1;
+    max-width: 1200px;
 }
 .landing .navigation{
     height:50px;
